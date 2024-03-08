@@ -1,0 +1,30 @@
+:root
+{
+  --b-100: #ED8B00;
+  --g-75: #5CDC9D;
+  --r-50: #FCA09C;
+  --r-100: #F9423A;
+  --primary-font: "Playfair Display", serif;
+  --bold: 700;
+}
+
+body{
+    font-family: var(--primary-font);
+}
+/* My button styles */
+
+.button-my-succes
+{
+  background-color: var(--b-100); 
+}
+
+.gradient-button {
+       
+        background: linear-gradient(to right, #ED8B00, #5CDC9D);
+        transition: background 0.3s ease;
+    }
+
+.bold-my-text
+{
+  font-weight: var(--primary-font)
+}
