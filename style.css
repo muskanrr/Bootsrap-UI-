@@ -51,19 +51,19 @@ body {
 }
 
 /* Primary color styles */
-.primary-color-1 .color-box-header { background-color: #40B5CD; } /* Blue */
-.primary-color-2 .color-box-header { background-color: #5cdc90; } /* Dark Blue */
-.primary-color-3 .color-box-header { background-color: #FA716B; } /* Light Blue */
+.primary-color-1 .color-box-header { background-color: #40B5CD; } 
+.primary-color-2 .color-box-header { background-color: #5cdc90; } 
+.primary-color-3 .color-box-header { background-color: #FA716B; } 
 
 /* Secondary color styles */
-.secondary-color-1 .color-box-header { background-color: #7FCDDE; } /* Lavender */
-.secondary-color-2 .color-box-header { background-color: #92e7bd; } /* Powder Blue */
-.secondary-color-3 .color-box-header { background-color: #FCA09C; } /* Steel Blue */
+.secondary-color-1 .color-box-header { background-color: #7FCDDE; } 
+.secondary-color-2 .color-box-header { background-color: #92e7bd; } 
+.secondary-color-3 .color-box-header { background-color: #FCA09C; } 
 
 /* tertiary color styles */
-.tertiary-color-1 .color-box-header { background-color: #BFE6EE; } /* Lavender */
-.tertiary-color-2 .color-box-header { background-color: #C8F3DE; } /* Powder Blue */
-.tertiary-color-3 .color-box-header { background-color: #FECFCD; } /* Steel Blue */
+.tertiary-color-1 .color-box-header { background-color: #BFE6EE; } 
+.tertiary-color-2 .color-box-header { background-color: #C8F3DE; } 
+.tertiary-color-3 .color-box-header { background-color: #FECFCD; } 
 
 
   
@@ -80,7 +80,7 @@ body {
 }
 
 .btn-primary.btn-sm {
-  background-color: #0045B6; /* Set the background color to blue */
+  background-color: #8f14cc; /* Set the background color to blue */
   color: #ffffff; /* Set the text color to white */
   border: none; /* Remove the border */
   padding: 10px 20px; /* Set the padding to 10px top/bottom and 20px left/right */
@@ -92,20 +92,20 @@ body {
 
 /* Adjust the hover state as needed */
 .btn-primary.btn-sm:hover {
-  background-color: #b09525; /* A darker shade of blue for the hover state */
+  background-color: #5b0984; /* A darker shade of blue for the hover state */
   color: #ffffff; /* Ensure the text color remains white */
 }
 
 .btn-primary.btn-sm:active {
   background-color: #EEF4FC; /* Active state background color - typically darker */
-  color: #0045B6;
-  border: 2px solid #0045B6;
+  color: #934aee;
+  border: 2px solid #934aee;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); /* Smaller shadow to give a "pressed" effect */
   transform: translateY(2px); /* Slight move down to mimic pressing */
 }
 
 .btn-primary.btn-md {
-  background-color: #0045B6; /* Blue background */
+  background-color: #8f14cc; /* Blue background */
   color: #ffffff; /* White text */
   padding: 12px 22px; /* 12px top and bottom, 22px left and right padding */
   font-size: 1.25rem; /* Larger font size for medium button */
@@ -116,20 +116,20 @@ body {
 }
 
 .btn-primary.btn-md:hover {
-  background-color: #001D47; /* Darker blue on hover */
+  background-color: #5b0984; /* Darker blue on hover */
   color: #ffffff;
 }
 
 .btn-primary.btn-md:active {
   background-color: #EEF4FC; /* Lighter background for active state */
-  color: #0045B6; /* Blue text for active state */
-  border: 2px solid #0045B6; /* Blue border for active state */
+  color: #934aee; /* Blue text for active state */
+  border: 2px solid #934aee; /* Blue border for active state */
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* Smaller shadow for "pressed" effect */
   transform: translateY(2px); /* Mimic pressing down */
 }
 
 .btn-primary.btn-lg {
-  background-color: #0045B6; /* Blue background */
+  background-color: #8f14cc; /* Blue background */
   color: #ffffff; /* White text */
   padding: 14px 24px; /* 14px top and bottom, 24px left and right padding */
   font-size: 1.5rem; /* Larger font size for a large button */
@@ -140,46 +140,20 @@ body {
 }
 
 .btn-primary.btn-lg:hover {
-  background-color: #001D47; /* Darker blue on hover */
+  background-color: #5b0984; /* Darker blue on hover */
   color: #ffffff;
 }
 
 .btn-primary.btn-lg:active {
   background-color: #EEF4FC; /* Lighter background for active state */
-  color: #0045B6; /* Blue text for active state */
-  border: 2px solid #0045B6; /* Blue border for active state */
+  color: #934aee; /* Blue text for active state */
+  border: 2px solid #934aee; /* Blue border for active state */
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* Smaller shadow for "pressed" effect */
   transform: translateY(2px); /* Mimic pressing down */
 }
 
-.alert-success {
-  background-color: #4CB9A3; /* Light green background */
-  border-color: #c3e6cb; /* Darker green border */
-  color: #ffffff; /* Dark green text color */
-  border-radius: 10px;
-  /* Add other properties as needed */
-}
 
-.alert-danger {
-  background-color: #E44646; /* Light green background */
-  color: #ffffff; /* Dark green text color */
-  border-radius: 10px;
   /* Add other properties as needed */
-}
-
-.alert-warning {
-  background-color: #DB9E43; /* Light green background */
-  color: #ffffff; /* Dark green text color */
-  border-radius: 10px;
-  /* Add other properties as needed */
-}
-
-.alert-info {
-  background-color: #B5E5E3; /* Light green background */
-  color: #000000; /* Dark green text color */
-  border-radius: 10px;
-  /* Add other properties as needed */
-}
 
 .carousel-item {
   position: relative; /* This allows absolute positioning inside the item */
@@ -208,11 +182,36 @@ body {
   );
 }
 
-.navbar.custom-navbar {
-  background-color: #0045B6 !important; /* Dark background, using !important to override Bootstrap styles */
-  border-radius: 10px;
+
+
+
+
+
+function changeColor(alertElement) {
+  alertElement.classList.add('blink');
 }
 
-.navbar.custom-navbar .navbar-text {
-  color: #fff; /* Light text color */
+
+
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2.5rem;
+  
+}
+.navbar-nav .nav-link {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  
+}
+.navbar-nav .nav-link:hover {
+  color: #fdfdfd;
+}
+.nav-bg-color-200 {
+  background-color: #AFA0E2;
+}
+
+.bg-success-300 {
+  background-color:  #AFA0E2 !important
+
 }

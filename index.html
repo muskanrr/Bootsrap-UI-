@@ -22,14 +22,27 @@
   />
   <link rel="stylesheet" href="style.css" />
   <script src="script.js" defer></script>
+
+  <style>
+    .blink {
+      animation: blinker 1s linear infinite;
+    }
+    @keyframes blinker {
+      50% {
+          opacity: 0;
+      }
+    }
+    </style>
 </head>
 <body >
+  <body class="bg-success-300" id="home">
+
 
   <main class="container mt-3">
     <header class="row">
       <div class="col">
-        <h1>Bootsrtap UI Design System</h1>
-        <h2>Muskan Rathore</h2>
+        <h1>.</h1>
+        <h2>Bootstrap UI Design System</h2>
         <p>
            Design System by me. 
         </p>
@@ -258,35 +271,56 @@
   <section class="row my-4">
     <div class="col-12">
       <h1>Alerts</h1>
-      <div class="alert alert-success" role="alert">
-        A simple success alert—check it out!
+      
+      <div class="container mt-5">
+        <div class="alert alert-primary alert-dismissible fade show" role="alert" onclick="changeColor(this)">
+            This is a primary alert! Click on close icon to remove the alert.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <div class="alert alert-secondary alert-dismissible fade show" role="alert" onclick="changeColor(this)">
+            This is a secondary alert! Click on close icon to remove the alert.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <div class="alert alert-success alert-dismissible fade show" role="alert" onclick="changeColor(this)">
+            This is a success alert! Click on close icon to remove the alert.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <div class="alert alert-danger alert-dismissible fade show" role="alert" onclick="changeColor(this)">
+            This is a danger alert! Click on close icon to remove the alert.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
       </div>
-      <div class="alert alert-danger" role="alert">
-        A simple danger alert—check it out!
-      </div>
-      <div class="alert alert-warning" role="alert">
-        A simple warning alert—check it out!
-      </div>
-      <div class="alert alert-info" role="alert">
-        A simple info alert—check it out!
-      </div>
+      
+
     </div>
   </section>
 
 
 
-<!-- Navigation -->
-<section class="row my-4">
-  <h1>Navigation</h1>
-  <nav class="navbar custom-navbar navbar-light bg-light">
-    <div class="container-fluid">
-      <span class="navbar-text">
-        Navbar text with an inline element
-      </span>
+  <nav class="navbar navbar-expand-lg nav-bg-color-200 fixed-top ">
+    <div class="container ">
+        <a class="navbar-brand merriweather-black " href="#">Muskan Rathore</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto merriweather-regular">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"  href="cards" id="Cards">Cards</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="carousel" id="Caraousel">Carousel</a>
+                </li>
+                <li class="nav-item bg-grey" id="contactButton">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </nav>  
-</section>
-</main>
+</nav>
 
 
 
@@ -297,7 +331,7 @@
 
   </main>
 
-  
+  </body>
 
 </body>
 </html>
