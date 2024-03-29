@@ -12,7 +12,7 @@ body {
   
   :root {
     --white: #ffffff; 
-  }
+  } 
   
  /* Styles for color boxes to match the uploaded image style */
 
@@ -181,16 +181,6 @@ body {
     rgba(0, 0, 0, 0.5) 90%
   );
 }
-
-
-
-
-
-
-function changeColor(alertElement) {
-  alertElement.classList.add('blink');
-}
-
 
 
 
